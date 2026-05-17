@@ -1,0 +1,4 @@
+# Override global ignore for values directory
+!values/
+!values/laura-app/
+!values/laura-app/*.yaml
