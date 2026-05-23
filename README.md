@@ -10,3 +10,7 @@ This repo is the source of truth for the state of specific environments (Prod, S
 
 ## Isolation
 Access is controlled via GitHub CODEOWNERS to ensure tenant laura-app cannot modify payment-app configs.
+
+**argocd-hub**:
+
+**argocd-hub**:
