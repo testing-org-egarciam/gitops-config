@@ -1,0 +1,8 @@
+wordpress:
+  wordpressUsername: admin
+  wordpressPassword: printolito_prod_password
+  replicaCount: 2
+  mariadb:
+    auth:
+      rootPassword: printolito_prod_db_password
+      database: bitnami_wordpress
