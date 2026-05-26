@@ -1,8 +1,12 @@
 wordpress:
+  image:
+    tag: latest
   wordpressUsername: admin
   wordpressPassword: printolito_prod_password
   replicaCount: 2
   mariadb:
+    image:
+      tag: latest
     auth:
       rootPassword: printolito_prod_db_password
       database: bitnami_wordpress
