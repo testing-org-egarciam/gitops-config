@@ -8,7 +8,6 @@ This repo is the source of truth for the state of specific environments (Prod, S
 - `values/laura-app/prod.yaml`: Production overrides for Laura App.
 - `values/laura-app/stg.yaml`: Staging overrides for Laura App.
 - `values/printolito/prod.yaml`: Production overrides for Printolito (WordPress).
-- `values/nginx/prod.yaml`: Production overrides for Nginx.
 
 ## Isolation
 Access is controlled via GitHub CODEOWNERS to ensure tenant applications (like `laura-app`) cannot modify other tenants' (like `printolito`) configs.
